@@ -5,13 +5,13 @@ void match22(float32 &out_x ,float32 out_y ,int32_t in_x ,int32_t in_y ,const fl
 {
  if(in_x < in_y){
    out_x = (float32)in_y / (float32)in_x * Max;
-   if(out_x < Min) out_x = Minf;
-   if(out_x > Max) out_x = Maxf;
+   if(out_x < Min) { out_x = Minf; }
+   else if(out_x > Max) { out_x = Maxf; }
    out_y = Max;
  }else{
    out_x = Max;
    out_y = (float32)in_x / (float32)in_y * Max;
-   if(out_y < Minf) out_y = Minf;
-   if(out_y > Maxf) out_y = Maxf;
+   if(out_y < Minf) { out_y = Minf; }
+   else if(out_y > Maxf) { out_y = Maxf; }
  }
 }
