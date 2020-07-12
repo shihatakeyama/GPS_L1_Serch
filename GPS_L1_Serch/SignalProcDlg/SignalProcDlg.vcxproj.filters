@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ListCtrl">
+      <UniqueIdentifier>{5f5d7441-b341-431b-afbb-50987110b816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPS">
+      <UniqueIdentifier>{363aaf48-84d9-4a5a-9bd1-9a74f54bf649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cuda">
+      <UniqueIdentifier>{62fb8510-5229-4aa5-8bd6-0d315413496f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SignalProcDlg.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SignalProcDlgDlg.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GnrlDefine.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SP_Define.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaInfoDlg.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GnrlFilepath.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GnrlCharset.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GnrlInt.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GnrlThread.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SP_Global.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EditInListCtrl.h">
+      <Filter>ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlProc.h">
+      <Filter>ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboInListCtrl.h">
+      <Filter>ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="gps\L1CaCode.h">
+      <Filter>GPS</Filter>
+    </ClInclude>
+    <ClInclude Include="gps\L1Define.h">
+      <Filter>GPS</Filter>
+    </ClInclude>
+    <ClInclude Include="gps\L1PrnTap.h">
+      <Filter>GPS</Filter>
+    </ClInclude>
+    <ClInclude Include="gps\GPU_L1_FreqPhase.h">
+      <Filter>GPS</Filter>
+    </ClInclude>
+    <ClInclude Include="gps\GPU_L1_FreqPhase.hpp">
+      <Filter>GPS</Filter>
+    </ClInclude>
+    <ClInclude Include="gps\L1Tracking.h">
+      <Filter>GPS</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU_helper.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GLThread.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="cuda\CudaMem.h">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="GnrlString.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SignalProcDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SignalProcDlgDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="cuda\cuda_info.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CudaInfoDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SP_global.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GnrlFilePath.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GnrlThread.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EditInListCtrl.cpp">
+      <Filter>ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlProc.cpp">
+      <Filter>ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboInListCtrl.cpp">
+      <Filter>ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="gps\L1CaCode.cpp">
+      <Filter>GPS</Filter>
+    </ClCompile>
+    <ClCompile Include="gps\L1PrnTap.cpp">
+      <Filter>GPS</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU_helper.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GL_a.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GLThreadcpp.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="cuda\CudaMem.cpp">
+      <Filter>cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="GnrlString.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SignalProcDlg.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SignalProcDlg.rc2">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SignalProcDlg.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="L1CA.cu">
+      <Filter>GPS</Filter>
+    </CudaCompile>
+    <CudaCompile Include="GL_a.cu" />
+  </ItemGroup>
+</Project>
